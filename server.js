@@ -28,4 +28,4 @@ socket.emit('previousMessages', messages);
     });
 });
 
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
